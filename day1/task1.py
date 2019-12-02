@@ -14,7 +14,7 @@ def get_total_fuel_requirement(module_masses: List[int]) -> int:
     return total_fuel_requirement
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     module_masses = []
     with open(os.path.join(Path(__file__).parent, 'module_masses.txt')) as f:
         for mass in f.readlines():
