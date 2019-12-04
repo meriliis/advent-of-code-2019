@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
     start = (0, 0)
     closest_crossing, closest_distance = get_crossing_with_least_amount_of_total_steps(start, wire1_path, wire2_path)
-
+    
     print(closest_distance)
 
 
